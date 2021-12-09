@@ -1,0 +1,117 @@
+/* global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  font-weight: regular;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+h1,
+h2 {
+  font-family: roycroft, sans-serif;
+  text-align: center;
+  color: #7AC943;
+  font-size: 270px;
+}
+.art {
+  color: #8EE1FF;
+}
+h1 {
+  font-size: 48px;
+}
+
+img {
+  max-width: 100%;
+}
+main {
+  width: 95%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+header,
+footer {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+nav a:first-child{
+  margin-right: 20px;
+}
+
+.full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+/* header */
+header img {
+  width: 70px;
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: "🌎";
+  padding-inline-start: 7ch;
+}
+
+
+li::marker {
+  font-size: 12px;
+}
+
+p,
+ul {
+  width: 100%;
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 80px);
+}
+header a {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* classes page */
+
+.ff-powered-img {
+  visibility: hidden;
+}
+
+footer section {
+  margin-top: 20px;
+}
+
+
+
+@media (min-width: 600px) {
+  footer {
+    flex-direction: row;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex img {
+    max-width: 50%;
+  }
+}
